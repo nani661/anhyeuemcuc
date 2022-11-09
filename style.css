@@ -1,0 +1,42 @@
+html {
+  font-size: 62.5%;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background: black;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.heart1 {
+  width: 20rem;
+  height: 20rem;
+  background: white;
+  background: url(images/heart1.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart2 {
+  width: 20rem;
+  height: 20rem;
+  background: white;
+  background: url(images/heart2.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.heart3 {
+  width: 20rem;
+  height: 20rem;
+  background: white;
+  background: url(images/heart3.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
