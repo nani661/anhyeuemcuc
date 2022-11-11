@@ -10,4 +10,5 @@ button.onclick = function () {
     strings += hola;
     text.innerHTML = `<p> ${strings}</p>`;
   }, 1);
+  for (var h = 0; h <= h; h++) {}
 };
