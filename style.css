@@ -5,38 +5,24 @@ html {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: sans-serif;
 }
-body {
-  background: black;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+.total {
+  width: 100%;
+  height: max-content;
+  font-size: 2rem;
 }
-.heart1 {
-  width: 20rem;
-  height: 20rem;
-  background: white;
-  background: url(images/heart1.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+button {
+  display: block;
+  margin: 0 auto;
+  margin-top: 20vh;
+  width: 8rem;
+  height: 4rem;
+  background: rgb(255, 99, 125);
+  border-radius: 0.5rem;
+  font-size: 2rem;
+  font-weight: 100;
 }
-.heart2 {
-  width: 20rem;
-  height: 20rem;
-  background: white;
-  background: url(images/heart2.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-}
-.heart3 {
-  width: 20rem;
-  height: 20rem;
-  background: white;
-  background: url(images/heart3.png);
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
+.clear {
+  display: none;
 }
